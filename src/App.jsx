@@ -1,11 +1,12 @@
 import './App.css'
 import React from 'react'
-import Primeiro from './components/Primeiro.jsx'
-import ComParametro from './components/ComParametro.jsx'
-import ComFilhos from './components/ComFilhos.jsx'
-import Condicional from './components/Condicional.jsx'
+import Primeiro from './components/basicos/Primeiro.jsx'
+import ComParametro from './components/basicos/ComParametro.jsx'
+import ComFilhos from './components/basicos/ComFilhos.jsx'
+import Condicional from './components/basicos/Condicional.jsx'
+import Repeticao from './components/basicos/Repeticao.jsx'
 import Card from './components/layout/Card.jsx'
-import Repeticao from './components/Repeticao.jsx'
+
 
 export default (props) => (
     <div className="App">
